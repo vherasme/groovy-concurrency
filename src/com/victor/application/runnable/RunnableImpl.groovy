@@ -24,6 +24,7 @@ class RunnerTwo implements Runnable {
     }
 }
 
+@Canonical
 class RunnableImpl {
 
     void runExample() {

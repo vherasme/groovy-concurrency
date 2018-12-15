@@ -1,5 +1,8 @@
 package com.victor.application.waitnotify
 
+import groovy.transform.Canonical
+
+@Canonical
 class WaitNotify {
 
     void produce() throws InterruptedException {

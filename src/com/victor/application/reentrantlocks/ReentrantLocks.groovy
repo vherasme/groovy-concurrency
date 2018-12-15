@@ -1,8 +1,11 @@
 package com.victor.application.reentrantlocks
 
+import groovy.transform.Canonical
+
 import java.util.concurrent.locks.Lock
 import java.util.concurrent.locks.ReentrantLock
 
+@Canonical
 class ReentrantLocks {
 
     static int counter = 0

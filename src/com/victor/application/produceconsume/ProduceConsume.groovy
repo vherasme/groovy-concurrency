@@ -1,5 +1,8 @@
 package com.victor.application.produceconsume
 
+import groovy.transform.Canonical
+
+@Canonical
 class ProduceConsume {
 
     List<Integer> list = new ArrayList<>()

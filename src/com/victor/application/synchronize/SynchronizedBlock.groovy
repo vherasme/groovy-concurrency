@@ -1,5 +1,8 @@
 package com.victor.application.synchronize
 
+import groovy.transform.Canonical
+
+@Canonical
 class SynchronizedBlock {
 
     private static int count1 = 0

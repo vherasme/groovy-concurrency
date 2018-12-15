@@ -1,9 +1,12 @@
 package com.victor.application.produceconsumelocks
 
+import groovy.transform.Canonical
+
 import java.util.concurrent.locks.Condition
 import java.util.concurrent.locks.Lock
 import java.util.concurrent.locks.ReentrantLock
 
+@Canonical
 class ProduceConsumeLocks {
 
     Lock lock = new ReentrantLock()
