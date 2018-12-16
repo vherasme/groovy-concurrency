@@ -1,12 +1,12 @@
 package com.victor.application
 
-import com.victor.application.executors.RunExecuteWorker
+import com.victor.application.callablefuture.CallableFuture
 
 class Application {
 
     static void main(String[] args) {
 
-        def example = new RunExecuteWorker()
+        def example = new CallableFuture()
         example.runExample()
     }
 }
