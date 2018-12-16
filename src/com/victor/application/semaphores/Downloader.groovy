@@ -4,7 +4,8 @@ import java.util.concurrent.Semaphore
 
 @Singleton
 class Downloader {
-    Semaphore semaphore = new Semaphore(4, true)
+    final int cores = Runtime.getRuntime().availableProcessors()
+    Semaphore semaphore = new Semaphore(cores, true)
 
     void downloadData() {
         try {
