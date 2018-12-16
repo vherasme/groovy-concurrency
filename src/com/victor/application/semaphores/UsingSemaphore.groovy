@@ -1,7 +1,6 @@
 package com.victor.application.semaphores
 
 import groovy.transform.Canonical
-import com.victor.application.semaphores.Downloader
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

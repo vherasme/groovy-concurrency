@@ -1,12 +1,12 @@
 package com.victor.application
 
-import com.victor.application.semaphores.UsingSemaphore
+import com.victor.application.executors.RunExecuteWorker
 
 class Application {
 
     static void main(String[] args) {
 
-        def example = new UsingSemaphore()
+        def example = new RunExecuteWorker()
         example.runExample()
     }
 }
